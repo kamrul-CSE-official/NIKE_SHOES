@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+.bg-header{
+    background-color: #FFF9F4;
+}
+.title-color{
+    color: #FA804C;
+    font-weight: 800;
+}
+.title-color2{
+    color: navy;
+    font-weight: 800;
+}
+.font-page{
+    margin: 0 auto;
+}
+
+
+.bg-image{
+    background-color: #F1F1F1;
+}
+.shoe-price{
+    color: #FA804C;
+    font-weight: 700;
+}
+.shoes-title{
+    font-weight: 700;
+}
+
+.before-footer-tex{
+    width: 50%;
+}
+.before-footer-img{
+    width: 50%;
+}
+.before-footer{
+    width: 50%;
+}
+.img-2{
+    width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .font-page-img{
+        width: 407px;
+        height: 407px;
+    }
+    .before-footer{
+        width: 50%;
+    }
+}
+@media screen and (max-width:650px) {
+    .font-page-img{
+        width: 207px;
+        height: 207px;
+    }
+    .before-footer{
+        width: auto;
+    }
+    .nab_bar li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:450px) {
+    .font-page-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+    }
+    .before-footer{
+        width: auto;
+    }
+    .nab_bar li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
